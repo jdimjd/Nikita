@@ -106,7 +106,7 @@
     let isLetterOpen = false;
     let isLetterTyping = false;
     
-    let recipient = 'Aafiya';
+    let recipient = 'You Aafiya';
     let sender = 'JD';
     let message = "Dear Aafiya,\n\nThis is my love for you... 🌹\n\nEvery beat of this heart is a reminder of how incredibly special you are to me. You make my world so much brighter, and my life complete. ✨\n\nNo matter where life takes us, my heart will always run in an infinite loop for you, beating forever and always. You are my today and all of my tomorrows. 💗💍";
 
