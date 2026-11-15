@@ -106,9 +106,9 @@
     let isLetterOpen = false;
     let isLetterTyping = false;
     
-    let recipient = 'You Aafiya';
+    let recipient = 'You ANikita';
     let sender = 'JD';
-    let message = "Dear Aafiya,\n\nThis is my love for you... 🌹\n\nEvery beat of this heart is a reminder of how incredibly special you are to me. You make my world so much brighter, and my life complete. ✨\n\nNo matter where life takes us, my heart will always run in an infinite loop for you, beating forever and always. You are my today and all of my tomorrows. 💗💍";
+    let message = "Dear ANikita,\n\nThis is my love for you... 🌹\n\nEvery beat of this heart is a reminder of how incredibly special you are to me. You make my world so much brighter, and my life complete. ✨\n\nNo matter where life takes us, my heart will always run in an infinite loop for you, beating forever and always. You are my today and all of my tomorrows. 💗💍";
 
     function initLoveData() {
         const params = new URLSearchParams(window.location.search);
@@ -228,7 +228,7 @@
 
     document.getElementById('saveLetterBtn').addEventListener('click', () => {
         playClickSound();
-        const newRecipient = document.getElementById('recipientInput').value.trim() || 'Aafiya';
+        const newRecipient = document.getElementById('recipientInput').value.trim() || 'ANikita';
         const newSender = document.getElementById('senderInput').value.trim() || 'JD';
         const newMessage = document.getElementById('messageInput').value.trim() || `Dear ${newRecipient},\n\nThis is my love for you... 🌹\n\nEvery line of code, every pixel, and every beat of this heart is a reminder of how incredibly special you are to me. You make my world so much brighter, and my life complete. ✨\n\nNo matter where life takes us, my heart will always run in an infinite loop for you, beating forever and always. You are my today and all of my tomorrows. 💗💍`;
 
@@ -725,7 +725,7 @@
             return s.alpha > 0;
         });
 
-        // --- Heart Center Text: Happy Birthday Aafiya ---
+        // --- Heart Center Text: Happy Birthday ANikita ---
         if (phase === 'beating' || phase === 'assemble') {
             const nameAlpha = phase === 'assemble' ? progress : 1;
             const baseFontSize = Math.round(scale * 0.28 * beatFactor);
@@ -748,7 +748,7 @@
             textGrad.addColorStop(1, `rgba(196, 71, 245, ${nameAlpha})`);
 
             ctx.fillStyle = textGrad;
-            ctx.fillText('Happy Birthday Aafiya', CX, textY);
+            ctx.fillText('Happy Birthday ANikita', CX, textY);
             ctx.restore();
         }
 
