@@ -725,7 +725,7 @@
             return s.alpha > 0;
         });
 
-        // --- Heart Center Text: Happy Birthday ANikita ---
+        // --- Heart Center Text: Happy Birthday Nikita ---
         if (phase === 'beating' || phase === 'assemble') {
             const nameAlpha = phase === 'assemble' ? progress : 1;
             const baseFontSize = Math.round(scale * 0.28 * beatFactor);
@@ -748,7 +748,7 @@
             textGrad.addColorStop(1, `rgba(196, 71, 245, ${nameAlpha})`);
 
             ctx.fillStyle = textGrad;
-            ctx.fillText('Happy Birthday ANikita', CX, textY);
+            ctx.fillText('Happy Birthday Nikita', CX, textY);
             ctx.restore();
         }
 
